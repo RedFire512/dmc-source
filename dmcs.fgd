@@ -1,0 +1,25 @@
+//-------------------------------------------------------------------------
+//
+// Game data for Deathmach Classic Source.
+//
+//-------------------------------------------------------------------------
+
+@include "halflife2.fgd"
+
+
+@PointClass base(PlayerClass, Angles) studio("models/editor/playerstart.mdl") = info_player_deathmatch :
+	"This entity indicates the position and facing direction at which the player will spawn during a deathmatch map. Any number of "+
+	"info_player_deathmatch entities may be placed in a map."
+[
+]
+
+@PointClass base(prop_physics) studioprop() sphere(fademindist) sphere(fademaxdist) = prop_physics_respawnable :
+	"This class is the same as prop_physics, except it respawns after it breaks"
+[
+	RespawnTime(float) : "Respawn Time" : 60 : "Ammount in seconds this prop will respawn after it breaks."
+]
+
+
+@PointClass base(Weapon) studio("models/weapons/w_crowbar.mdl") = weapon_crowbar : "Crowbar" []
+@PointClass base(Weapon) studio("models/weapons/w_rocket_launcher.mdl") = weapon_rocketlauncher : "Rocket Launcher" []
+@PointClass base(Weapon) studio("models/weapons/w_shotgun.mdl") = weapon_shotgun : "Shotgun" []

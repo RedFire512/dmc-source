@@ -1,0 +1,13 @@
+// Default mapcycle file for dmcs
+//
+// DO NOT MODIFY THIS FILE!
+// Instead, copy it to mapcycle.txt and modify that file.  If no custom mapcycle.txt file is found,
+// this file will be used as the default.
+//
+// Also, note that the "mapcyclefile" convar can be used to specify a particular mapcycle file.
+
+dmc_dm2
+dmc_dm3
+dmc_dm4
+dmc_dm6
+dmc_e1m2

@@ -17,50 +17,20 @@ Scheme
 	{
 		// base colors
 		"White"				"255 255 255 255"
-		"OffWhite"			"221 221 221 255"
-		"DullWhite"			"211 211 211 255"
-		
-		"TransparentBlack"	"0 0 0 128"
+		"OffWhite"			"216 216 216 255"
+		"DullWhite"			"142 142 142 255"
+		"Orange"			"255 155 0 255"
+		"TransparentBlack"		"0 0 0 128"
 		"Black"				"0 0 0 255"
 
 		"Blank"				"0 0 0 0"
-
-		// base colors
-		"BaseText"			"216 222 211 255"	// used in text windows, lists
-		"BrightBaseText"	"255 255 255 255"	// brightest text
-		"SelectedText"		"255 255 255 255"	// selected text
-		"DimBaseText"		"160 170 149 255"	// dim base text
-		"LabelDimText"		"160 170 149 255"	// used for info text
-		"ControlText"		"216 222 211 255"	// used in all text controls
-		"BrightControlText"	"196 181 80 255"	// use for selected controls
-		"DisabledText1"		"117 128 111 255"	// disabled text
-		"DisabledText2"		"40 46 34 255"		// overlay color for disabled text (to give that inset look)
-		"DimListText"		"117 134 102 255"	// offline friends, unsubscribed games, etc.
-
-		// background colors
-		"ControlBG"			"76 88 68 255"		// background color of controls
-		"ControlDarkBG"		"90 106 80 255"		// darker background color; used for background of scrollbars
-		"WindowBG"			"62 70 55 255"		// background color of text edit panes (chat, text entries, etc.)
-		"SelectionBG"		"149 136 49 255"	// background color of any selected text or menu item
-		"SelectionBG2"		"40 46 34 255"		// selection background in window w/o focus
-		"ListBG"			"62 70 55 255"		// background of server browser, buddy list, etc.
-
-		// titlebar colors
-		"TitleText"			"255 255 255 255"
-		"TitleDimText"		"136 145 128 255"
-		"TitleBG"			"76 88 68 0"
-		"TitleDimBG"		"76 88 68 0"
+		"HL2BetaGreen"		"76 88 68 255"
+		"HL2BetaGreenOutFocus"		"76 88 68 128"
+		"HL2BetaDarkGreen"		"90 106 80 255"
+		"HL2BetaDarkGreenOutFocus"		"90 106 80 128"
+		"HL2BetaYellow"		"149 136 49 255"
+		"HL2BetaYellowOutFocus"		"149 136 49 128"
 		
-		// slider tick colors
-		"SliderTickColor"	"127 140 127 255"
-		"SliderTrackColor"	"31 31 31 255"
-
-		// border colors
-		"BorderBright"		"136 145 128 255"	// the lit side of a control
-		"BorderDark"		"40 46 34 255"		// the dark/unlit side of a control
-		"BorderSelection"	"0 0 0 255"			// the additional border color for displaying the default/selected button
-
-		"TestColor"			"255 0 255 255"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -70,143 +40,160 @@ Scheme
 	BaseSettings
 	{
 		// vgui_controls color specifications
-		Border.Bright					"BorderBright"	// the lit side of a control
-		Border.Dark						"BorderDark"		// the dark/unlit side of a control
-		Border.Selection				"BorderSelection"			// the additional border color for displaying the default/selected button
+		Border.Bright					"200 200 200 196"	// the lit side of a control
+		Border.Dark						"40 40 40 196"		// the dark/unlit side of a control
+		Border.Selection				"0 0 0 196"			// the additional border color for displaying the default/selected button
 
-		Button.TextColor				"ControlText"
-		Button.BgColor					"ControlBG"
-//		Button.ArmedTextColor			"BrightBaseText"
-//		Button.ArmedBgColor				"SelectionBG"
-//		Button.DepressedTextColor		"DimBaseText"
-//		Button.DepressedBgColor			"ControlDarkBG"	
-		Button.FocusBorderColor			"TransparentBlack"
+		Button.TextColor				"White"
+		Button.BgColor					"Blank"
+		Button.ArmedTextColor			"White"
+		Button.ArmedBgColor				"Blank"
+		Button.DepressedTextColor		"White"
+		Button.DepressedBgColor			"Blank"
+		Button.FocusBorderColor			"Black"
 		
-		CheckButton.TextColor			"BaseText"
-		CheckButton.SelectedTextColor	"BrightControlText"
-		CheckButton.BgColor				"ListBG"
+		CheckButton.TextColor			"OffWhite"
+		CheckButton.SelectedTextColor	"White"
+		CheckButton.BgColor				"HL2BetaGreen"
 		CheckButton.Border1  			"Border.Dark" 		// the left checkbutton border
 		CheckButton.Border2  			"Border.Bright"		// the right checkbutton border
-		CheckButton.Check				"BrightControlText"	// color of the check itself
+		CheckButton.Check				"White"				// color of the check itself
 
-		ComboBoxButton.ArrowColor		"DimBaseText"
-		ComboBoxButton.ArmedArrowColor	"BrightBaseText"
-		ComboBoxButton.BgColor			"ListBG"
-		ComboBoxButton.DisabledBgColor	"ControlBG"
+		ComboBoxButton.ArrowColor		"DullWhite"
+		ComboBoxButton.ArmedArrowColor	"White"
+		ComboBoxButton.BgColor			"Blank"
+		ComboBoxButton.DisabledBgColor	"Blank"
 
 		Frame.TitleTextInsetX			16
 		Frame.ClientInsetX				8
 		Frame.ClientInsetY				6
-		Frame.BgColor					"ControlBG"
-		Frame.OutOfFocusBgColor			"ControlBG"
+		Frame.BgColor					"HL2BetaDarkGreen"
+		Frame.OutOfFocusBgColor			"HL2BetaDarkGreenOutFocus"
 		Frame.FocusTransitionEffectTime	"0.3"	// time it takes for a window to fade in/out on focus/out of focus
 		Frame.TransitionEffectTime		"0.3"	// time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange				"0"
-		FrameGrip.Color1				"BorderBright"
-		FrameGrip.Color2				"BorderSelection"
-		FrameTitleButton.FgColor		"BorderBright"
-		FrameTitleButton.BgColor		"ControlBG"
-		FrameTitleButton.DisabledFgColor	"TitleDimText"
-		FrameTitleButton.DisabledBgColor	"TitleDimBG"
-		FrameSystemButton.FgColor		"TitleBG"
-		FrameSystemButton.BgColor		"TitleBG"
-		FrameSystemButton.Icon			"resource/icon_steam"
-		FrameSystemButton.DisabledIcon	"resource/icon_steam_disabled"
-		FrameTitleBar.TextColor			"TitleText"
-		FrameTitleBar.BgColor			"TitleBG"
-		FrameTitleBar.DisabledTextColor	"TitleText"
-		FrameTitleBar.DisabledBgColor	"TitleBG"
+		FrameGrip.Color1				"90 106 80 196"
+		FrameGrip.Color2				"0 0 0 196"
+		FrameTitleButton.FgColor		"200 200 200 196"
+		FrameTitleButton.BgColor		"Blank"
+		FrameTitleButton.DisabledFgColor	"255 255 255 192"
+		FrameTitleButton.DisabledBgColor	"Blank"
+		FrameSystemButton.FgColor		"Blank"
+		FrameSystemButton.BgColor		"Blank"
+		FrameSystemButton.Icon			""
+		FrameSystemButton.DisabledIcon	""
+		FrameTitleBar.Font				"UiBold"
+		FrameTitleBar.TextColor			"White"
+		FrameTitleBar.BgColor			"Blank"
+		FrameTitleBar.DisabledTextColor	"255 255 255 192"
+		FrameTitleBar.DisabledBgColor	"Blank"
 
 		GraphPanel.FgColor				"White"
 		GraphPanel.BgColor				"TransparentBlack"
 
-		Label.TextDullColor				"DimBaseText"
-		Label.TextColor					"ControlText"
-		Label.TextBrightColor			"BrightBaseText"
-		Label.SelectedTextColor			"BrightControlText"
-		Label.BgColor					"ControlBG"
-		Label.DisabledFgColor1			"DisabledText1"	
-		Label.DisabledFgColor2			"DisabledText2"	
+		Label.TextDullColor				"DullWhite"
+		Label.TextColor					"OffWhite"
+		Label.TextBrightColor			"White"
+		Label.SelectedTextColor			"White"
+		Label.BgColor					"Blank"
+		Label.DisabledFgColor1			"117 117 117 255"
+		Label.DisabledFgColor2			"30 30 30 255"
 
-		ListPanel.TextColor					"BaseText"
-		ListPanel.BgColor					"ListBG"
-		ListPanel.SelectedTextColor			"BrightBaseText"
-		ListPanel.SelectedBgColor			"SelectionBG"
-		ListPanel.SelectedOutOfFocusBgColor	"SelectionBG2"
-		ListPanel.EmptyListInfoTextColor	"DimBaseText"
+		ListPanel.TextColor					"OffWhite"
+		ListPanel.TextBgColor				"Blank"
+		ListPanel.BgColor					"HL2BetaDarkGreen"
+		ListPanel.SelectedTextColor			"Black"
+		ListPanel.SelectedBgColor			"HL2BetaYellow"
+		ListPanel.SelectedOutOfFocusBgColor	"HL2BetaYellowOutFocus"
+		ListPanel.EmptyListInfoTextColor	"OffWhite"
 
+		Menu.TextColor					"White"
+		Menu.BgColor					"HL2BetaDarkGreen"
+		Menu.ArmedTextColor				"Black"
+		Menu.ArmedBgColor				"HL2BetaYellow"
 		Menu.TextInset					"6"
-		Menu.FgColor			"DimBaseText"
-		Menu.BgColor			"ControlBG"
-		Menu.ArmedFgColor		"BrightBaseText"
-		Menu.ArmedBgColor		"SelectionBG"
-		Menu.DividerColor		"BorderDark"
 
-		Panel.FgColor					"BorderSelection"
-		Panel.BgColor					"ControlBG"
+		Panel.FgColor					"DullWhite"
+		Panel.BgColor					"Blank"
 
-		ProgressBar.FgColor				"Label.FgColor"
-		ProgressBar.BgColor				"Label.BgColor"
+		ProgressBar.FgColor				"HL2BetaYellow"
+		ProgressBar.BgColor				"HL2BetaGreen"
 
-		PropertySheet.TextColor			"ControlText"
-		PropertySheet.SelectedTextColor		"BrightControlText"
-		PropertySheet.TransitionEffectTime	"0"	// time to change from one tab to another
+		PropertySheet.TextColor			"OffWhite"
+		PropertySheet.SelectedTextColor	"White"
+		PropertySheet.TransitionEffectTime	"0.25"	// time to change from one tab to another
 
-		RadioButton.TextColor			"ToggleButton.TextColor"
-		RadioButton.SelectedTextColor		"ToggleButton.SelectedTextColor"
+		RadioButton.TextColor			"DullWhite"
+		RadioButton.SelectedTextColor	"White"
 
-		RichText.TextColor				"TextEntry.TextColor"
-		RichText.BgColor				"TextEntry.BgColor"
-		RichText.SelectedTextColor		"TextEntry.SelectedTextColor"
-		RichText.SelectedBgColor		"SelectionBG"
+		RichText.TextColor				"OffWhite"
+		RichText.BgColor				"TransparentBlack"
+		RichText.SelectedTextColor		"Black"
+		RichText.SelectedBgColor		"HL2BetaYellow"
 
 		ScrollBar.Wide					17
 
-		ScrollBarButton.FgColor				"ControlText"
-		ScrollBarButton.BgColor				"ControlDarkBG"
-		ScrollBarButton.ArmedFgColor		"BrightBaseText"
-		ScrollBarButton.ArmedBgColor		"ControlDarkBG"
-		ScrollBarButton.DepressedFgColor	"BrightBaseText"
-		ScrollBarButton.DepressedBgColor	"ControlDarkBG"
+		ScrollBarButton.FgColor				"White"
+		ScrollBarButton.BgColor				"Blank"
+		ScrollBarButton.ArmedFgColor		"White"
+		ScrollBarButton.ArmedBgColor		"Blank"
+		ScrollBarButton.DepressedFgColor	"White"
+		ScrollBarButton.DepressedBgColor	"Blank"
 
-		ScrollBarSlider.BgColor				"ControlDarkBG"		// this isn't really used
-		ScrollBarSlider.FgColor				"ControlBG"		// handle with which the slider is grabbed
+		ScrollBarSlider.FgColor				"HL2BetaDarkGreen"			// nob color
+		ScrollBarSlider.BgColor				"HL2BetaGreen"	// slider background color
 
-//		SectionedListPanel.HeaderTextColor	"White"
-//		SectionedListPanel.HeaderBgColor	"Blank"
-//		SectionedListPanel.DividerColor		"Black"
-//		SectionedListPanel.TextColor		"DullWhite"
-//		SectionedListPanel.BrightTextColor	"White"
-//		SectionedListPanel.BgColor			"TransparentBlack"
-//		SectionedListPanel.SelectedTextColor			"Black"
-//		SectionedListPanel.SelectedBgColor				"255 155 0 255"
-//		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
-//		SectionedListPanel.OutOfFocusSelectedBgColor	"255 155 0 128"
+		SectionedListPanel.HeaderTextColor	"White"
+		SectionedListPanel.HeaderBgColor	"Blank"
+		SectionedListPanel.DividerColor		"Black"
+		SectionedListPanel.TextColor		"DullWhite"
+		SectionedListPanel.BrightTextColor	"White"
+		SectionedListPanel.BgColor			"HL2BetaGreen"
+		SectionedListPanel.SelectedTextColor			"Black"
+		SectionedListPanel.SelectedBgColor				"HL2BetaYellow"
+		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
+		SectionedListPanel.OutOfFocusSelectedBgColor	"HL2BetaYellowOutFocus"
 
-		Slider.NobColor				"ControlDarkBG"		
-		Slider.TextColor			"ControlBG"
-		Slider.TrackColor			"ControlDarkBG"
-//		Slider.DisabledTextColor1	"117 117 117 255"
-//		Slider.DisabledTextColor2	"30 30 30 255"
+		Slider.NobColor				"HL2BetaDarkGreen"
+		Slider.TextColor			"180 180 180 255"
+		Slider.TrackColor			"HL2BetaGreen"
+		Slider.DisabledTextColor1	"117 117 117 255"
+		Slider.DisabledTextColor2	"30 30 30 255"
 
-		TextEntry.TextColor			"ControlText"
-		TextEntry.BgColor			"ListBG"
-		TextEntry.CursorColor		"Label.CursoColor"
-		TextEntry.DisabledTextColor	"DimBaseText"
-		TextEntry.DisabledBgColor	"ControlBG"
-		TextEntry.SelectedTextColor	"SelectedText"
-		TextEntry.SelectedBgColor	"SelectionBG"
-		TextEntry.OutOfFocusSelectedBgColor	"SelectionBG2"
-		TextEntry.FocusEdgeColor	"SelectionBG"
+		TextEntry.TextColor			"OffWhite"
+		TextEntry.BgColor			"HL2BetaGreen"
+		TextEntry.CursorColor		"OffWhite"
+		TextEntry.DisabledTextColor	"DullWhite"
+		TextEntry.DisabledBgColor	"Blank"
+		TextEntry.SelectedTextColor	"Black"
+		TextEntry.SelectedBgColor	"HL2BetaYellow"
+		TextEntry.OutOfFocusSelectedBgColor	"255 155 0 128"
+		TextEntry.FocusEdgeColor	"0 0 0 196"
 
-		ToggleButton.SelectedTextColor	"Label.SelectedTextColor"
+		ToggleButton.SelectedTextColor	"White"
 
-//		Tooltip.TextColor			"0 0 0 196"
-//		Tooltip.BgColor				"255 155 0 255"
+		Tooltip.TextColor			"0 0 0 196"
+		Tooltip.BgColor				"HL2BetaYellow"
 
-		TreeView.BgColor			"WindowBG"
+		TreeView.BgColor			"HL2BetaGreen"
 
-		WizardSubPanel.BgColor		"ControlBG"
+		WizardSubPanel.BgColor		"Blank"
+
+		// scheme-specific colors
+		MainMenu.TextColor			"White"
+		MainMenu.ArmedTextColor		"200 200 200 255"
+		MainMenu.DepressedTextColor	"192 186 80 255"
+		MainMenu.MenuItemHeight		"30"
+		MainMenu.Inset				"32"
+		MainMenu.Backdrop			"0 0 0 156"
+
+		Console.TextColor			"OffWhite"
+		Console.DevTextColor		"White"
+
+		NewGame.TextColor			"White"
+		NewGame.FillColor			"0 0 0 255"
+		NewGame.SelectionColor		"HL2BetaYellow"
+		NewGame.DisabledColor		"128 128 128 196"
 	}
 
 	//
@@ -283,7 +270,7 @@ Scheme
 			"1"
 			{
 				"name"		"Tahoma"
-				"tall"		"13"
+				"tall"		"12"
 				"weight"	"0"
 			}
 		}
@@ -548,102 +535,17 @@ Scheme
 	// describes all the border types
 	Borders
 	{
-		BaseBorder		InsetBorder
+		BaseBorder		DepressedBorder
 		ButtonBorder	RaisedBorder
-		ComboBoxBorder	InsetBorder
+		ComboBoxBorder	DepressedBorder
 		MenuBorder		RaisedBorder
-		BrowserBorder	InsetBorder
+		BrowserBorder	DepressedBorder
 		PropertySheetBorder	RaisedBorder
-		TabBorder		RaisedBorder
-		CheckBorder InsetBorder
-		FrameBorder	RaisedBorder
 
-		TitleButtonBorder	RaisedBorder
-		TitleButtonDepressedBorder InsetBorder
-		TitleButtonDisabledBorder
+		FrameBorder
 		{
-			"backgroundtype" "0"
-		}
-
-
-		ScrollBarButtonBorder
-		{
-			"inset" "1 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "BorderBright"
-					"offset" "0 1"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "BorderDark"
-					"offset" "1 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "BorderBright"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "BorderDark"
-					"offset" "0 0"
-				}
-			}
-		}
-
-		InsetBorder
-		{
-			"inset" "0 0 1 1"
-			Right
-			{
-				"1"
-				{
-					"color" "Border.Bright"
-					"offset" "0 1"
-				}
-			}
-
-			Left
-			{
-				"1"
-				{
-					"color" "Border.Dark"
-					"offset" "1 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "Border.Bright"
-					"offset" "0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "Border.Dark"
-					"offset" "0 0"
-				}
-			}
+			// rounded corners for frames
+			"backgroundtype" "2"
 		}
 
 		DepressedBorder
@@ -653,7 +555,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Bright"
+					"color" "Border.Dark"
 					"offset" "0 1"
 				}
 			}
@@ -662,7 +564,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Dark"
+					"color" "Border.Bright"
 					"offset" "1 0"
 				}
 			}
@@ -671,7 +573,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Bright"
+					"color" "Border.Dark"
 					"offset" "0 0"
 				}
 			}
@@ -680,7 +582,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Dark"
+					"color" "Border.Bright"
 					"offset" "0 0"
 				}
 			}
@@ -688,20 +590,20 @@ Scheme
 		RaisedBorder
 		{
 			"inset" "0 0 1 1"
-			Right
-			{
-				"1"
-				{
-					"color" "Border.Dark"
-					"offset" "0 1"
-				}
-			}
-
 			Left
 			{
 				"1"
 				{
 					"color" "Border.Bright"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "Border.Dark"
 					"offset" "0 0"
 				}
 			}
@@ -725,6 +627,21 @@ Scheme
 			}
 		}
 		
+		TitleButtonBorder
+		{
+			"backgroundtype" "0"
+		}
+
+		TitleButtonDisabledBorder
+		{
+			"backgroundtype" "0"
+		}
+
+		TitleButtonDepressedBorder
+		{
+			"backgroundtype" "0"
+		}
+
 		ScrollBarButtonBorder
 		{
 			"inset" "2 2 0 0"
@@ -732,7 +649,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Dark"
+					"color" "Border.Bright"
 					"offset" "0 1"
 				}
 			}
@@ -741,7 +658,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Bright"
+					"color" "Border.Dark"
 					"offset" "1 0"
 				}
 			}
@@ -750,7 +667,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Dark"
+					"color" "Border.Bright"
 					"offset" "0 0"
 				}
 			}
@@ -759,7 +676,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Bright"
+					"color" "Border.Dark"
 					"offset" "0 0"
 				}
 			}
@@ -805,6 +722,38 @@ Scheme
 			}
 		}
 
+		TabBorder
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "Border.Bright"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "Border.Dark"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "Border.Bright"
+					"offset" "0 0"
+				}
+			}
+
+		}
+
 		TabActiveBorder
 		{
 			"inset" "0 0 1 0"
@@ -845,7 +794,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Bright"
+					"color" "Border.Dark"
 					"offset" "0 0"
 				}
 			}
@@ -854,7 +803,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Bright"
+					"color" "Border.Dark"
 					"offset" "1 0"
 				}
 			}
@@ -863,7 +812,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Bright"
+					"color" "Border.Dark"
 					"offset" "0 0"
 				}
 			}
@@ -872,7 +821,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Bright"
+					"color" "Border.Dark"
 					"offset" "0 0"
 				}
 			}
@@ -882,32 +831,6 @@ Scheme
 		ButtonKeyFocusBorder
 		{
 			"inset" "0 0 1 1"
-			Right
-			{
-				"1"
-				{
-					"color" "Border.Selection"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "Border.Dark"
-					"offset" "1 1"
-				}
-			}
-			Bottom
-			{
-				"1"
-				{
-					"color" "Border.Selection"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "Border.Dark"
-					"offset" "1 1"
-				}
-			}
 			Left
 			{
 				"1"
@@ -918,7 +841,7 @@ Scheme
 				"2"
 				{
 					"color" "Border.Bright"
-					"offset" "1 0"
+					"offset" "0 1"
 				}
 			}
 			Top
@@ -932,6 +855,32 @@ Scheme
 				{
 					"color" "Border.Bright"
 					"offset" "1 0"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "Border.Selection"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "Border.Dark"
+					"offset" "1 0"
+				}
+			}
+			Bottom
+			{
+				"1"
+				{
+					"color" "Border.Selection"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "Border.Dark"
+					"offset" "0 0"
 				}
 			}
 		}
@@ -939,30 +888,21 @@ Scheme
 		ButtonDepressedBorder
 		{
 			"inset" "2 1 1 1"
-			Right
-			{
-				"1"
-				{
-					"color" "Border.Bright"
-					"offset" "1 1"
-				}
-			}
-
 			Left
 			{
 				"1"
 				{
 					"color" "Border.Dark"
-					"offset" "1 0"
+					"offset" "0 1"
 				}
 			}
 
-			Bottom
+			Right
 			{
 				"1"
 				{
 					"color" "Border.Bright"
-					"offset" "0 0"
+					"offset" "1 0"
 				}
 			}
 
@@ -971,6 +911,15 @@ Scheme
 				"1"
 				{
 					"color" "Border.Dark"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "Border.Bright"
 					"offset" "0 0"
 				}
 			}

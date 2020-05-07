@@ -757,7 +757,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"  "HL2MP"
+				"name"  "QUAKE"
 				"tall"  "46"
 				"weight" "0"
 				"additive" "0"
@@ -1576,6 +1576,7 @@ Scheme
 	CustomFontFiles
 	{
 		"1"		"resource/HALFLIFE2.ttf"
+		"1"		"resource/Quake.ttf"
 		"1"		"resource/HL2MP.ttf"
 		"2"		"resource/HL2crosshairs.ttf"
 	}

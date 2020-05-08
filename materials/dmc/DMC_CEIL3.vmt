@@ -1,7 +1,7 @@
 "LightmappedGeneric"
 {
 	"$basetexture" "dmc/DMC_CEIL3"
-	"$bumpmap" "dmc/DMC_CEIL3_normal"
+	"$bumpmap" "dmc/DMC_CEIL2_normal"
 	"$envmaptint" "[ .004 .004 .004 ]"
 	"$envmap" "env_cubemap"
 	"$normalmapalphaenvmapmask" 1

@@ -1,12 +1,21 @@
-"LightmappedGeneric"
+"UnlitGeneric"
 {
 	"$basetexture" "dmc/!DMCTELE"
+	"$no decal" 1
+	"$bumpmap" "dev/water_normal"
 	"Proxies"
 	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$bumpmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 30.00
+		}
+
 		"TextureScroll"
 		{
 			"texturescrollvar" "$baseTextureTransform"
-			"texturescrollrate" 5.0
+			"texturescrollrate" 0.2
 			"texturescrollangle" 90
 		}
 	}

@@ -1,7 +1,7 @@
 "LightmappedGeneric"
 {
 	"$basetexture" "dmc/DMCBRKI"
-	"$bumpmap" "dmc/DMCBRKI_normal"
+	"$bumpmap" "dmc/DMCBRKL_normal"
 	"$surfaceprop" "concrete"
 
 	"$detail" "detail\noise_detail_01"

@@ -1,4 +1,5 @@
 "LightmappedGeneric"
 {
 	"$basetexture" "dmc/!DMCLVA"
+	"$bumpmap" "dmc/!DMCLVA_normal"
 }

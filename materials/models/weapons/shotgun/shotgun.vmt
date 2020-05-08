@@ -1,0 +1,10 @@
+"Vertexlitgeneric"
+{
+	"$basetexture" "models/Weapons/shotgun/shotgun"
+	"$bumpmap" "models/Weapons/shotgun/shotgun_normal"
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost"	"1.3"
+	"$phongfresnelranges"	"[.1 0.4 2]"
+
+}

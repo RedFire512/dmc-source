@@ -70,3 +70,9 @@ expressions/*
 # map compile products
 *.prt
 *.vmx
+materials/vgui/logos/ui/andre.vmt
+materials/vgui/logos/ui/chick1.vmt
+materials/vgui/logos/ui/spray_dog.vmt
+materials/vgui/logos/ui/spray_elited.vmt
+materials/vgui/logos/ui/spray_flashbanged.vmt
+materials/vgui/logos/ui/spray_kamikazi.vmt

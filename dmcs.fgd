@@ -19,7 +19,42 @@
 	RespawnTime(float) : "Respawn Time" : 60 : "Ammount in seconds this prop will respawn after it breaks."
 ]
 
+@SolidClass base(BasePlat) = func_plat :
+	"A brush entity that moves vertically, and can rotate while doing so."
+[
+	spawnflags(flags) =
+	[
+		1: "Toggle" : 1
+	]
+	noise1(sound) : "Movement Sound" : : "The sound to play when the brush moves."
+	noise2(sound) : "Stop Sound" : : "The sound to play when the brush stops moving."
+	speed(float) : "Speed" : "50.000000" : "Speed at which the brush moves"
+	lip(float) : "Lip" : "0.000000" :	"The amount, in inches, of the button to leave " +
+						"sticking out of the wall it recedes into when " +
+						"pressed. Negative values make the button recede " +
+						"even further into the wall."
+]
+
+@SolidClass base(Targetname, Origin, RenderFields) = func_train
+[
+	spawnflags(flags) =
+	[
+		8 : "Non-solid" : 0
+	]
+	texframeindex(integer) : "Initial Brush Frame Index" : : "Use this to set the initial frame of materials with multiple frames in the brush"
+	target(target_destination) : "First path_corner"
+	noise1(sound) : "Movement Sound" : : "The sound to play when the train moves."
+	noise2(sound) : "Stop Sound" : : "The sound to play when the train stops moving."
+	speed(float) : "Speed" : "50.000000" : "Speed at which the brush moves."
+	volume(float) : "Sound volume [0.0, 10.0]" : "0.000000"
+	dmg(float) : "Crush Damage" : "0.000000"
+	input Toggle(void) : "Toggle movement"
+	input Start(void) : "Start movement"
+	input Stop(void) : "Stop movement"
+	input Use(void) : "Toggle movement - has a different functionality than Toggle"
+]
 
 @PointClass base(Weapon) studio("models/weapons/w_crowbar.mdl") = weapon_crowbar : "Crowbar" []
 @PointClass base(Weapon) studio("models/weapons/w_rocket_launcher.mdl") = weapon_rocketlauncher : "Rocket Launcher" []
 @PointClass base(Weapon) studio("models/weapons/w_shotgun.mdl") = weapon_shotgun : "Shotgun" []
+@PointClass base(Weapon) studio("models/weapons/w_shotgun.mdl") = weapon_supershotgun : "Super Shotgun" []

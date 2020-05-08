@@ -1,0 +1,207 @@
+lights/fluorescentcool001a	189 231 232 350
+lights/fluorescentcool001b	236 255 182 350
+lights/fluorescentcool002a	189 231 232 400
+lights/fluorescentcool002b	236 255 182 400
+lights/fluorescentcool003a	189 231 232 300
+lights/fluorescentwarm001a	239 216 193 350
+lights/fluorescentwarm002a	239 216 193 400
+lights/fluorescentwhite001a	245 245 245 350
+lights/fluorescentwhite002a	245 245 245 400
+
+
+lights/hazzardred001a		228 37 0 300
+lights/hazzardyellow001a	250 215 74 300
+
+lights/HIDcool001a		145 222 172 650
+lights/HIDcool001b		205 232 255 650
+lights/HIDwarm001a		255 201 116 650
+
+lights/white001			250 240 205 100
+lights/white002			189 233 247 425
+lights/white003			232 246 190 350
+lights/white004			170 228 247 425
+lights/white005			234 235 220 375
+lights/white006			234 235 220 100
+
+lights/blue001			166 180 196 200 166 180 196 100
+lights/blue002			141 176 203 200 141 176 203 100
+lights/red001			63 1 1 200 63 1 1 100
+
+lights/white001_nochop	250 240 205 100
+lights/white002_nochop	189 233 247 425
+lights/white003_nochop	232 246 190 350
+lights/white004_nochop	170 228 247 425
+lights/white005_nochop	234 235 220 375
+lights/white006_nochop	234 235 220 100
+
+lights/incandescentcool001a	235 235 235 300
+lights/incandescentwarm001a	250 226 129 300
+
+
+glass/glassscreen001a		172 192 161 225
+glass/glasspipe001f		214 72 44 200
+glass/glassscreen001c		172 192 161 225
+glass/glassscreen001d		211 187 134 225
+glass/glassblock001a		70 194 209 200 
+composite/citadelfloor001a	103 143 203 200
+props/tvscreen006a		196 0 0 200
+shadertest/gooinglass		149 49 15 50
+
+glass/glasswindow002e		189 233 247 425
+glass/glasswindow035a		145 222 172 100
+
+dev/DEV_INTERIORLIGHT02B	151 176 204 225
+
+plaster/plasterwall029h		189 223 227 125
+building_template/Building_Trainstation_Template001d	230 230 200 65
+building_template/Building_Trainstation_Template001e	230 230 200 150
+building_template/Building_Trainstation_window002d	230 230 200 300
+building_template/Building_Trainstation_window002e	230 230 200 300
+
+lights/physgunlight	189 231 232 20
+
+noshadow tree_deciduous_01a_branches.vmt
+noshadow tree_deciduous_01a_leaves.vmt
+noshadow tree_deciduous_01a_lod.vmt
+noshadow tree_deciduous_01a_lod-leaves.vmt
+
+forcetextureshadow props_foliage/tree_dead01.mdl
+forcetextureshadow props_foliage/tree_dead02.mdl
+forcetextureshadow props_foliage/tree_dead03.mdl
+forcetextureshadow props_foliage/tree_dead04.mdl
+forcetextureshadow props_foliage/tree_dry01.mdl
+forcetextureshadow props_foliage/tree_dry02.mdl
+forcetextureshadow props_foliage/tree_pine_large.mdl
+forcetextureshadow props_foliage/tree_pine04.mdl
+forcetextureshadow props_foliage/tree_pine05.mdl
+forcetextureshadow props_foliage/tree_pine06.mdl
+forcetextureshadow props_foliage/tree_deciduous_01a.mdl
+forcetextureshadow props_foliage/tree_deciduous_02a.mdl
+forcetextureshadow props_wasteland/interior_fence001a.mdl
+forcetextureshadow props_wasteland/interior_fence001b.mdl
+forcetextureshadow props_wasteland/interior_fence001c.mdl
+forcetextureshadow props_wasteland/interior_fence001d.mdl
+forcetextureshadow props_wasteland/interior_fence001e.mdl
+forcetextureshadow props_wasteland/interior_fence001g.mdl
+forcetextureshadow props_wasteland/interior_fence002a.mdl
+forcetextureshadow props_wasteland/interior_fence002b.mdl
+forcetextureshadow props_wasteland/interior_fence002c.mdl
+forcetextureshadow props_wasteland/interior_fence002d.mdl
+forcetextureshadow props_wasteland/interior_fence002e.mdl
+forcetextureshadow props_wasteland/interior_fence002f.mdl
+forcetextureshadow props_wasteland/interior_fence003a.mdl
+forcetextureshadow props_wasteland/interior_fence003b.mdl
+forcetextureshadow props_wasteland/interior_fence003d.mdl
+forcetextureshadow props_wasteland/interior_fence003e.mdl
+forcetextureshadow props_wasteland/interior_fence003f.mdl
+forcetextureshadow props_wasteland/interior_fence004a.mdl
+forcetextureshadow props_wasteland/interior_fence004b.mdl
+forcetextureshadow props_forest/fence_barb_256.mdl
+forcetextureshadow props_forest/fence_barb_512.mdl
+forcetextureshadow props_forest/fence_border_128.mdl
+forcetextureshadow props_forest/fence_border_256.mdl
+forcetextureshadow props_forest/fence_border_512.mdl
+forcetextureshadow props_forest/fence_trail_128.mdl
+forcetextureshadow props_forest/fence_trail_256.mdl
+forcetextureshadow props_forest/fence_trail_512.mdl
+forcetextureshadow props_wasteland/exterior_fence_notbarbed002a.mdl
+forcetextureshadow props_wasteland/exterior_fence_notbarbed002b.mdl
+forcetextureshadow props_wasteland/exterior_fence_notbarbed002c.mdl
+forcetextureshadow props_wasteland/exterior_fence_notbarbed002d.mdl
+forcetextureshadow props_wasteland/exterior_fence_notbarbed002e.mdl
+forcetextureshadow props_wasteland/exterior_fence_notbarbed002f.mdl
+forcetextureshadow props_wasteland/exterior_fence001a.mdl
+forcetextureshadow props_wasteland/exterior_fence001b.mdl
+forcetextureshadow props_wasteland/exterior_fence002a.mdl
+forcetextureshadow props_wasteland/exterior_fence002b.mdl
+forcetextureshadow props_wasteland/exterior_fence002c.mdl
+forcetextureshadow props_wasteland/exterior_fence002d.mdl
+forcetextureshadow props_wasteland/exterior_fence002e.mdl
+forcetextureshadow props_wasteland/exterior_fence003a.mdl
+forcetextureshadow props_wasteland/exterior_fence003b.mdl
+forcetextureshadow props_foliage/fern01.mdl
+forcetextureshadow props_foliage/ferns01.mdl
+forcetextureshadow props_foliage/ferns02.mdl
+forcetextureshadow props_foliage/ferns03.mdl
+forcetextureshadow props_forest/fern01.mdl
+forcetextureshadow props_forest/fern01lg.mdl
+
+halflife/+0~GENERIC65 255 255 255 100
+halflife/+0~GENERIC85 170 200 227 375 
+halflife/+0~GENERIC86 201 197 174 500
+halflife/+0~GENERIC86B 158 220 201 110
+halflife/+a~GENERIC86B 158 220 201 50
+halflife/+0~GENERIC86R 255 0 0 300 
+halflife/GENERIC87A 100 255 100 23
+halflife/GENERIC88A 255 100 100 23
+halflife/GENERIC89A 40 40 130 23
+halflife/GENERIC90A 200 255 200 23
+halflife/GENERIC105 255 100 100 23
+halflife/GENERIC106 120 120 100 23
+halflife/GENERIC107 180 50 180 23
+halflife/GEN_VEND1 50 180 50 23
+halflife/EMERGLIGHT 255 200 100 137
+halflife/+0~FIFTS_LGHT01 160 170 220 2200
+halflife/+0~FIFTIES_LGT2 230 231 240 800 
+halflife/+0~FIFTS_LGHT4 160 170 220 200
+halflife/+0~LIGHT1 140 227 255  350
+halflife/+0~LIGHT3A 212 231 238 1200
+halflife/+0~LIGHT4A 205 203 188 350
+halflife/+0~LIGHT5A 80 150 200 300 
+halflife/+0~LIGHT6A 150 5 5 600
+halflife/+0~TNNL_LGT1 240 230 100 66
+halflife/+0~TNNL_LGT2 185 144 86 4000
+halflife/+0~TNNL_LGT3 179 230 235 1500
+halflife/+0~TNNL_LGT4 216 177 109 500
+halflife/+0LAB1_W6D 165 230 255 43
+halflife/+0LAB1_W6 150 160 210 6500
+halflife/+0LAB1_W7 245 240 210 2000
+halflife/SKKYLITE 216 244 255 2000
+halflife/+0~DRKMTLS1 205 0 0 52
+halflife/+0~DRKMTLGT1 200 200 180 52
+halflife/+0~DRKMTLS2 150 120 20 108
+halflife/+0~DRKMTLS2C 255 200 100 137
+halflife/+0DRKMTL_SCRN 60 80 255 66
+halflife/~LAB_CRT9A 225 150 150 8
+halflife/~LAB_CRT9B 100 100 255 8
+halflife/~LAB_CRT9C 100 200 150 8
+halflife/~LIGHT3A 190 20 20 38
+halflife/~LIGHT3B 174 210 231 300
+halflife/~LIGHT3C 237 233 208 900
+halflife/~LIGHT3D 44 246 9 90
+halflife/~LIGHT3E 170 227 218 300
+halflife/C1A3C_MAP 100 100 255 8
+halflife/FIFTIES_MON1B 100 100 180 5
+halflife/+0~LAB_CRT8 50 50 255 8
+halflife/ELEV2_CIEL 255 200 100 21
+halflife/YELLOW 255 200 100 32
+halflife/RED 255 0 0 23
+ 
+halflife/generic105a 196 10 38 13
+halflife/generic105 196 10 38 13
+halflife/generic106a 255 236 103 13
+halflife/generic106 255 236 103 13
+halflife/generic107a 83 10 93 13
+halflife/generic107 83 10 93 13
+halflife/GENERIC99B 1 214 198 28
+halflife/GENERIC99C 107 1 1 28
+
+halflife/~spotyellow 255 255 225 220
+halflife/~spotblue 78 191 238 400
+halflife/litepanel1 160 170 220 1100
+halflife/+0~LIGHT5f 255 254 179 1000
+halflife/+0~fifts_lght5 160 200 220 1100
+halflife/+a~fifts_lght5 160 200 220 700
+halflife/+a~FIFTIES_LGT2 196 224 228 700
+halflife/+0buttonlite 255 0 0 220
+halflife/+abuttonlite 114 255 107 220A
+halflife/~trn_lt1 160 170 220 300  
+halflife/+alab1_w6 150 160 210 6500
+halflife/~light5f 255 254 190 1500
+halflife/~light5a 0 40 255 1500
+halflife/glassgreen 50 255 50 200 
+halflife/c3a2_light 234 193 0 500 
+liquids/!radio 100 255 40 80 
+liquids/scrolltoxic 100 255 40 80 
+
+dmc/!dmclva 255 200 130 300

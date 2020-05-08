@@ -54,7 +54,15 @@
 	input Use(void) : "Toggle movement - has a different functionality than Toggle"
 ]
 
+//
+// weapons
+//
+
 @PointClass base(Weapon) studio("models/weapons/w_crowbar.mdl") = weapon_crowbar : "Crowbar" []
 @PointClass base(Weapon) studio("models/weapons/w_rocket_launcher.mdl") = weapon_rocketlauncher : "Rocket Launcher" []
 @PointClass base(Weapon) studio("models/weapons/w_shotgun.mdl") = weapon_shotgun : "Shotgun" []
 @PointClass base(Weapon) studio("models/weapons/w_shotgun.mdl") = weapon_supershotgun : "Super Shotgun" []
+@PointClass base(Weapon) studio("models/weapons/w_shotgun.mdl") = weapon_nailgun : "Nailgun" []
+@PointClass base(Weapon) studio("models/weapons/w_shotgun.mdl") = weapon_supernailgun : "Super Nailgun " []
+@PointClass base(Weapon) studio("models/weapons/w_rocket_launcher.mdl") = weapon_grenadelauncher : "Grenade launcher" []
+@PointClass base(Weapon) studio("models/weapons/w_rocket_launcher.mdl") = weapon_lightning : "Thunderbolt" []

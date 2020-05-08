@@ -1,4 +1,9 @@
 "LightmappedGeneric"
 {
 	"$basetexture" "dmc/DMCCTN"
+	"$detail" "detail/noise_detail_01"
+	"$envmap" "env_cubemap"
+	"$surfaceprop" "rubber"
+	"$bumpmap" "dmc/DMCCTN_normal"
+	"$envmaptint" "[.1 .1 0]"
 }

@@ -1,0 +1,48 @@
+"Water"
+{
+	"$basetexture" "xeno/!fluid2"
+	"$forceexpensive" 1
+	"$reflectentities" 1
+	"%tooltexture" "xeno/!fluid2"
+	"$refracttexture" "_rt_WaterRefraction"
+	"$refractamount" "3.0"
+//	"$refractamount" "0.0"
+	// Always set to white for now.
+	//"$refracttint" "[1.0 1.0 1.0]"
+//	"$reflecttexture" "_rt_WaterReflection"
+	"$envmap" "env_cubemap"
+	"$reflectamount" "0.2"
+	//"$reflecttint" "{255 255 255}"
+	"$scale" "[1 1]"
+	"$bumpmap" "dev/water_dudv"
+	"$normalmap" "dev/water_normal"
+	"%compilewater" 1
+	"$surfaceprop" "water"
+	"$bottommaterial" "liquids\water_pretty_xen1_beneath"
+	"$bumpframe" "0"
+	"$fogenable" 1
+	"$fogcolor" "{10 18 22}"
+	"$fogstart" 0.00
+	"$fogend" 40.00
+	"$abovewater" 1	
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$normalmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 20.00
+		}
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$bumptransform"
+			"texturescrollrate" .05
+			"texturescrollangle" 45.00
+		}
+		"WaterLOD"
+		{
+		}
+	}
+}

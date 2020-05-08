@@ -1,4 +1,7 @@
 "LightmappedGeneric"
 {
 	"$basetexture" "dmc/DMCWDA"
+	"$bumpmap" "dmc/DMCWDA_normal"
+	"$surfaceprop"	"Wood"
+	"%keywords" "dmc"
 }

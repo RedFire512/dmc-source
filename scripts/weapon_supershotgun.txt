@@ -1,15 +1,15 @@
-// Shotgun
+// Super Shotgun
 
 WeaponData
 {
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"				"#DMC_Shotgun"
+	"printname"				"#DMC_Super_Shotgun"
 	"viewmodel"				"models/weapons/v_shotgun.mdl"
 	"playermodel"			"models/weapons/w_shotgun.mdl"
 	"anim_prefix"			"shotgun"
 
 	"bucket"				"3"
-	"bucket_position"		"0"
+	"bucket_position"		"1"
 
 	"clip_size"				"999"
 	"primary_ammo"			"Buckshot"

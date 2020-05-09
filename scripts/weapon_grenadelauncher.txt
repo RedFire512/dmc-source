@@ -1,31 +1,32 @@
-// Shotgun
+// Grenade Launcher
 
 WeaponData
 {
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"				"#DMC_Shotgun"
-	"viewmodel"				"models/weapons/v_shotgun.mdl"
-	"playermodel"			"models/weapons/w_shotgun.mdl"
-	"anim_prefix"			"shotgun"
+	"printname"				"#DMC_Grenade_Launcher"
+	"viewmodel"				"models/weapons/v_smg1.mdl"
+	"playermodel"			"models/weapons/w_smg1.mdl"	//FIXME: 
+	"anim_prefix"			"smg2"
 
-	"bucket"				"3"
+	"bucket"				"2"
 	"bucket_position"		"0"
 
-	"clip_size"				"999"
-	"primary_ammo"			"Buckshot"
+	"clip_size"				"45"
+	"default_clip"			"45"
+
+	"primary_ammo"			"grenade"
 	"secondary_ammo"		"None"
 
-	"weight"				"4"
+	"weight"				"3"
 	"item_flags"			"0"
-	"damage"				"9"
+	"damage"				"5"
 
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData
 	{
-
-		"empty"				"Weapon_Shotgun.Empty"
-		"single_shot"		"Weapon_Shotgun.Single"
-		"single_shot_npc"	"Weapon_Shotgun.NPC_Single"
+		"empty"				"Weapon_SMG1.Empty"
+		"single_shot"		"Weapon_SMG1.Single"
+		"single_shot_npc"	"Weapon_SMG1.NPC_Single"
 	}
 
 	// Weapon Sprite data is loaded by the Client DLL.
@@ -34,17 +35,22 @@ WeaponData
 		"weapon"
 		{
 			"font"		"WeaponIcons"
-			"character"	"b"
+			"character"	"a"
 		}
 		"weapon_s"
 		{	
 			"font"		"WeaponIconsSelected"
-			"character"	"b"
+			"character"	"a"
 		}
 		"ammo"
 		{
 			"font"		"WeaponIcons"
-			"character"	"s"
+			"character"	"r"
+		}
+		"ammo2"
+		{
+			"font"		"WeaponIcons"
+			"character"	"t"
 		}
 		"crosshair"
 		{

@@ -3,16 +3,16 @@
 WeaponData
 {
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"	"#DMC_Crowbar"
+	"printname"				"#DMC_Crowbar"
 	"viewmodel"				"models/weapons/v_crowbar.mdl"
 	"playermodel"			"models/weapons/w_crowbar.mdl"
 	"anim_prefix"			"crowbar"
+
 	"bucket"				"0"
 	"bucket_position"		"0"
 
 	"clip_size"				"-1"
 	"primary_ammo"			"None"
-	"secondary_ammo"		"None"
 
 	"weight"				"0"
 	"item_flags"			"0"
@@ -30,18 +30,18 @@ WeaponData
 	{
 		"weapon"
 		{
-				"font"		"WeaponIcons"
-				"character"	"c"
+			"font"		"WeaponIcons"
+			"character"	"c"
 		}
 		"weapon_s"
 		{	
-				"font"		"WeaponIconsSelected"
-				"character"	"c"
+			"font"		"WeaponIconsSelected"
+			"character"	"c"
 		}
 		"ammo"
 		{
-				"font"		"WeaponIcons"
-				"character"	"c"
+			"font"		"WeaponIcons"
+			"character"	"c"
 		}
 		"ammo2"
 		{
@@ -53,8 +53,8 @@ WeaponData
 		}
 		"crosshair"
 		{
-				"font"		"Crosshairs"
-				"character"	"Q"
+			"font"		"Crosshairs"
+			"character"	"Q"
 		}
 		"autoaim"
 		{

@@ -192,7 +192,7 @@
 	"soundlevel"	"SNDLVL_105dB"
 	"pitch"			"95,100"
 
-	"wave"			"weapons/ax1.wav"
+	"wave"			"weapons/iceaxe/iceaxe_swing1.wav"
 }
 
 "Weapon_Crowbar.Melee_Hit"
@@ -202,7 +202,12 @@
 	"soundlevel"	"SNDLVL_105dB"
 	"pitch"			"98,102"
 
-	"wave"		"player/axhitbod.wav"
+	"rndwave"
+	{
+		"wave"		"physics/flesh/flesh_impact_bullet3.wav"
+		"wave"		"physics/flesh/flesh_impact_bullet4.wav"
+		"wave"		"physics/flesh/flesh_impact_bullet5.wav"
+	}
 }
 
 "Weapon_Crowbar.Melee_HitWorld"
@@ -212,7 +217,11 @@
 	"soundlevel"	"SNDLVL_90dB"
 	"pitch"			"90,120"
 
-	"wave"		"player/axhit2.wav"
+	"rndwave"
+	{
+		"wave"		"weapons/crowbar/crowbar_impact1.wav"
+		"wave"		"weapons/crowbar/crowbar_impact2.wav"
+	}
 }
 
 // weapon_lightning.txt

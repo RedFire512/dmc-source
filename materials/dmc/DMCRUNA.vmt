@@ -1,7 +1,7 @@
 "LightmappedGeneric"
 {
 	"$basetexture" "dmc/DMCRUNA"
-	"$bumpmap" "dmc/DMCRUNE_normal"
+	"$bumpmap"    "dmc/DMCRUNA_normal"
 	"$surfaceprop"	"metal"
 	"$detail" "detail\metal_detail_01"
 	"$detailscale" "4.283"

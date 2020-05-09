@@ -1,7 +1,6 @@
 "UnlitGeneric"
 {
 	"$basetexture" "dmc/!DMCTELE"
-	"$bumpmap" "dev/water_normal"
 	$nodecal "1"
 	"Proxies"
 	{
@@ -9,7 +8,7 @@
 		"TextureScroll"
 		{
 			"texturescrollvar" "$baseTextureTransform"
-			"texturescrollrate" 0.5
+			"texturescrollrate" 1.5
 			"texturescrollangle" 60
 		}
 	}

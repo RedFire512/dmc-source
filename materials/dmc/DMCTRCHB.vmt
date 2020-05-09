@@ -1,7 +1,7 @@
-"LightmappedGeneric"
+"VertexLitGeneric"
 {
 	"$basetexture" "dmc/DMCTRCHB"
-	"$bumpmap" "dmc/DMCTRCHB_normal"
+	"$selfillum" "1"
 	"$surfaceprop"	"metal"
 	"$detail" "detail\metal_detail_01"
 	"$detailscale" "4.283"

@@ -1,6 +1,5 @@
-"LightmappedGeneric"
+"UnLitGeneric"
 {
 	"$basetexture" "dmc/!DMCLVA"
-	"$bumpmap" "dmc/!DMCLVA_normal"
 	$nodecal "1"
 }

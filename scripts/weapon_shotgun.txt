@@ -23,9 +23,8 @@ WeaponData
 	SoundData
 	{
 
-		"empty"				"Weapon_Shotgun.Empty"
+		"empty"				"Default.Empty"
 		"single_shot"		"Weapon_Shotgun.Single"
-		"single_shot_npc"	"Weapon_Shotgun.NPC_Single"
 	}
 
 	// Weapon Sprite data is loaded by the Client DLL.

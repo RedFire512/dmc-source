@@ -3,9 +3,5 @@
 	"$basetexture" "dmc/DMCTCHD"
 	"$surfaceprop" "metal"
 	"%keywords" "dmc"
-	"$envmap" "env_cubemap"
-	"ldr?$envmaptint" "[ .6 .6 .6 ]"
-	"hdr?$envmaptint" "[.01 .01 .01]"
 	"$bumpmap" "dmc/DMCTCHD_normal"
-	"$normalmapalphaenvmapmask" 1
 }

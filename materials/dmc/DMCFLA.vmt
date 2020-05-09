@@ -2,6 +2,6 @@
 {
 	"$basetexture" "dmc/DMCFLA"
 	"$bumpmap" "dmc/DMCFLA_bumpmap"
-	"$surfaceprop" "dirt"
+	"$surfaceprop" "metal"
 	"%keywords" "dmc"
 }

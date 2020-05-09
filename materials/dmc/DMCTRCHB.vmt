@@ -8,4 +8,15 @@
 	"$detailblendfactor" .8
 	"$detailblendmode" "0"
 	"%keywords" 	"dmc"
+	"Proxies"
+	{
+
+		"Sine"
+		{
+			"resultVar"	"$color"
+			"sineperiod"	4	         // this is the time the fade between light and dark will take
+			"sinemin"	0.95,0.95,0.95   // these numbers are the 2 brightnesses it will pulse between
+			"sinemax"	1.6,1.6,1.6   // 1.0,1.0,1.0 will make the texture apear as it does in photoshop
+		}                                        // 2.0,2.0,2.0 will make it twice as bright and 0.0 will make it black
+	}
 }

@@ -13,17 +13,6 @@
 		"type"	"string"
 	}
 
-	"mp_teamplay"
-	{
-		"name" "Teamplay"
-		"type" "enumeration"
-		"list"
-		{
-			"0" "Disabled"
-			"1" "Enabled"
-		}
-	}
-
 	"mp_weaponstay"
 	{
 		"name" "Weapons Stay"

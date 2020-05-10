@@ -204,4 +204,5 @@ halflife/c3a2_light 234 193 0 500
 liquids/!radio 100 255 40 80 
 liquids/scrolltoxic 100 255 40 80 
 
-dmc/!dmclva 255 200 130 300
+dmc/!dmclva 255 200 130 350
+dmc/DMCTRCHB 200 123 0 150

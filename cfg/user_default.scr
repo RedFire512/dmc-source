@@ -48,7 +48,6 @@ DESCRIPTION INFO_OPTIONS
 		{ "300.000000" }
 	}
 
-
 	"hud_fastswitch"
 	{
 		"#DMC_Use_Weapon_Buckets"
@@ -75,4 +74,45 @@ DESCRIPTION INFO_OPTIONS
 		{ "2.000000" }
 	}
 
+    "cl_rollspeed"
+	{
+		"#DMC_ViewRoll_speed"
+		{ SLIDER 0 600 }
+		{ "300" }
+	}
+
+	"cl_rollangle"
+	{
+		"#DMC_ViewRoll_angle"
+		{ SLIDER 0.0 1.0 }
+		{ "0.65" }	
+    }
+	
+	"cl_impact_effects"
+	{
+		"#DMC_ParticleImpacts"
+		{ BOOL }
+		{ "0" }
+	}
+	
+	"cl_software_cursor"
+	{
+		"#DMC_Software_cursor"
+		{ BOOL }
+		{ "0" }
+	}
+	
+	"r_drawviewmodel"
+	{
+		"#DMC_viewmodeldraw_option"
+		{ BOOL }
+		{ "1" }
+	}	
+	
+	"viewmodel_fov" 
+	{
+		"#DMC_viewmodelfov_option"
+		{ SLIDER 54 70 }
+		{ "1" }
+	}
 }

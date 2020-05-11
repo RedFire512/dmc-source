@@ -55,6 +55,35 @@
 ]
 
 //
+// Items
+//
+
+@PointClass base(Item) studio("models/items/battery.mdl") = item_cells : "Thunderbolt ammo" []
+@PointClass base(Item) studio("models/weapons/w_missile_closed.mdl") = item_rockets : "Rockets" []
+@PointClass base(Item) studio("models/items/BoxBuckshot.mdl") = item_shells : "Shells" []
+@PointClass base(Item) studio("models/items/BoxMRounds.mdl") = item_spikes : "Nailgun ammo" []
+
+@PointClass base(Item) studio("models/items/healthkit.mdl") = item_health : "Health pak"
+[
+	spawnflags(flags) =
+	[
+		1 : "Rotten" : 0
+		2 : "Megahealth" : 0
+	]
+]
+
+@PointClass base(Item) studio("models/items/hevsuit.mdl") = item_artifact_envirosuit : "Environmental protection suit" []
+@PointClass base(Item) studio("models/items/battery.mdl") = item_artifact_super_damage : "Quad damage" []
+@PointClass base(Item) studio("models/items/battery.mdl") = item_artifact_invulnerability : "Pentagram of Protection" []
+@PointClass base(Item) studio("models/items/battery.mdl") = item_artifact_invisibility : "Ring of Shadows" []
+
+@PointClass base(Item)  studio("models/items/hevsuit.mdl") = item_armorUltra : "500% armor (Blue)" []
+@PointClass base(Item)  studio("models/items/hevsuit.mdl") = item_armorInv : "200% armor (Red)" []
+@PointClass base(Item)  studio("models/items/hevsuit.mdl") = item_armor2 : "150% armor (Yellow)" []
+@PointClass base(Item)  studio("models/items/hevsuit.mdl") = item_armor1 : "100% armor (Green)" []
+
+
+//
 // weapons
 //
 
@@ -62,7 +91,7 @@
 @PointClass base(Weapon) studio("models/weapons/w_rocket_launcher.mdl") = weapon_rocketlauncher : "Rocket Launcher" []
 @PointClass base(Weapon) studio("models/weapons/w_shotgun.mdl") = weapon_shotgun : "Shotgun" []
 @PointClass base(Weapon) studio("models/weapons/w_shotgun.mdl") = weapon_supershotgun : "Super Shotgun" []
-@PointClass base(Weapon) studio("models/weapons/w_shotgun.mdl") = weapon_nailgun : "Nailgun" []
-@PointClass base(Weapon) studio("models/weapons/w_shotgun.mdl") = weapon_supernailgun : "Super Nailgun " []
-@PointClass base(Weapon) studio("models/weapons/w_rocket_launcher.mdl") = weapon_grenadelauncher : "Grenade launcher" []
-@PointClass base(Weapon) studio("models/weapons/w_rocket_launcher.mdl") = weapon_lightning : "Thunderbolt" []
+@PointClass base(Weapon) studio("models/weapons/w_nail.mdl") = weapon_nailgun : "Nailgun" []
+@PointClass base(Weapon) studio("models/weapons/w_nail2.mdl") = weapon_supernailgun : "Super Nailgun " []
+@PointClass base(Weapon) studio("models/weapons/w_rock.mdl") = weapon_grenadelauncher : "Grenade launcher" []
+@PointClass base(Weapon) studio("models/weapons/w_light.mdl") = weapon_lightning : "Thunderbolt" []

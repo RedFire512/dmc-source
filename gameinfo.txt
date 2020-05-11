@@ -4,10 +4,10 @@
 	title	"Deathmatch Classic Source"
 	type multiplayer_only
 
-	nomodels 1
+	nomodels 0
 	nohimodel 1
 	nocrosshair 1
-	supportsvr	1
+	supportsvr	0
 
 	hidden_maps
 	{

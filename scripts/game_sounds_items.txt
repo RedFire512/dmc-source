@@ -1,0 +1,47 @@
+"Armor.Touch"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"items/armor1.wav"
+}
+
+"Health.Touch"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"items/health1.wav"
+}
+
+"SprayCan.Paint"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"player/sprayer.wav"
+}
+
+"Item.Materialize"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_75dB"
+	"pitch"	"150"
+
+	"wave"	"items/suitchargeok1.wav"
+}
+
+"Missile.Ignite"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_90dB"
+
+	"wave"			"weapons/rpg/rocket1.wav"
+}

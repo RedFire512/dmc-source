@@ -14,7 +14,7 @@ WeaponData
 	"clip_size"				"-1"
 	"default_clip"			"100"
 
-	"primary_ammo"			"Buckshot"
+	"primary_ammo"			"AMMO_SHELLS"
 	"secondary_ammo"		"None"
 
 	"weight"				"4"

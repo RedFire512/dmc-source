@@ -14,7 +14,7 @@ WeaponData
 	"clip_size"				"-1"
 	"default_clip"			"100"
 
-	"primary_ammo"			"grenade"
+	"primary_ammo"			"AMMO_ROCKETS"
 	"secondary_ammo"		"None"
 
 	"weight"				"3"

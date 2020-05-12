@@ -1,11 +1,4 @@
 "LightmappedGeneric"
 {
-	"$baseTexture" "dmc/DMCSTR"
-	"$bumpmap" "dmc/DMCSTR_normal"
-	"$surfaceprop"	"metal"
-	"$detail" "detail\metal_detail_01"
-	"$detailscale" "4.283"
-	"$detailblendfactor" .8
-	"$detailblendmode" "0"
-	"%keywords" 	"dmc"
+	"$basetexture" "dmc/DMCSTR"
 }

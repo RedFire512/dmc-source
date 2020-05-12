@@ -1,11 +1,4 @@
 "LightmappedGeneric"
 {
 	"$basetexture" "dmc/DMCPLSA"
-	"$bumpmap" "dmc/DMCPLSA_normal"
-	"$surfaceprop" "concrete"
-	"$detail" "detail\noise_detail_01"
-	"$detailscale" "4.283"
-	"$detailblendfactor" .8
-	"$detailblendmode" "0"
-	"%keywords" 	"dmc"
 }

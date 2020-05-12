@@ -1,12 +1,4 @@
 "LightmappedGeneric"
 {
 	"$basetexture" "dmc/DMCBRKM"
-	"$bumpmap" "dmc/DMCBRKM_normal"
-	"$surfaceprop" "concrete"
-
-	"$detail" "detail\noise_detail_01"
-	"$detailscale" "7.792"
-	"$detailblendfactor" .9
-	"$detailblendmode" 0
-	"%keywords" "dmc"
 }

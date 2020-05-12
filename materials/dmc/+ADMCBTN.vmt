@@ -1,11 +1,4 @@
-"UnlitGeneric"
+"LightmappedGeneric"
 {
 	"$basetexture" "dmc/+ADMCBTN"
-	"$bumpmap" "dmc/+ADMCBTN_normal"
-	"$surfaceprop" "concrete"
-	"$detail" "detail\metal_detail_01"
-	"$detailscale" "4.283"
-	"$detailblendfactor" .8
-	"$detailblendmode" "0"
-	"%keywords" 	"dmc"
 }

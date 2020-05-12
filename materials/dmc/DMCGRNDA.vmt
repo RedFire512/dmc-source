@@ -1,7 +1,4 @@
 "LightmappedGeneric"
 {
 	"$basetexture" "dmc/DMCGRNDA"
-	"$bumpmap" "dmc/DMCGRNDA_normal"
-	"$surfaceprop" "dirt"
-	"%keywords" "dmc"
 }

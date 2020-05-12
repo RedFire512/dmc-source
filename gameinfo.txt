@@ -54,6 +54,16 @@
 			game+game+game_write+mod+mod_write+default_write_path		|gameinfo_path|.
 			gamebin				|gameinfo_path|bin
 
+			// hammer content
+			game				"|all_source_engine_paths|../Half-Life 2/ep2/ep2_sound_vo_english.vpk"
+			game				"|all_source_engine_paths|../Half-Life 2/ep2/ep2_pak.vpk"
+			game				"|all_source_engine_paths|../Half-Life 2/episodic/ep1_sound_vo_english.vpk"
+			game				"|all_source_engine_paths|../Half-Life 2/episodic/ep1_pak.vpk"
+			game				"|all_source_engine_paths|../Half-Life 2/lostcoast/lostcoast_sound_vo_english.vpk"
+			game				"|all_source_engine_paths|../Half-Life 2/lostcoast/lostcoast_pak.vpk"
+			game				"|all_source_engine_paths|../Portal/portal/portal_sound_vo_english_pak.vpk"
+			game				"|all_source_engine_paths|../Portal/portal/portal_pak.vpk"
+
 			// We search VPK files before ordinary folders, because most files will be found in
 			// VPK and we can avoid making thousands of file system calls to attempt to open files
 			// in folders where they don't exist.  (Searching a VPK is much faster than making an operating

@@ -1,7 +1,8 @@
 "GameInfo"
 {
 	game	"Deathmatch Classic Source"
-	title	"Deathmatch Classic Source"
+	title	"DEATHMATCH CLASSIC"
+	title2	"SOURCE"
 	type multiplayer_only
 
 	nomodels 0
